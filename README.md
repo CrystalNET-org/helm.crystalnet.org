@@ -1,1 +1,5 @@
-# CrystalNET-org.github.io
+# helm.crystalnet.org
+
+```shell
+helm repo add crystalnet https://helm.crystalnet.org
+```
