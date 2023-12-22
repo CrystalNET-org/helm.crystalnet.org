@@ -3,6 +3,42 @@ entries:
   paperless-ngx:
   - apiVersion: v2
     appVersion: 2.1.3
+    created: "2023-12-22T23:18:34.315344624Z"
+    dependencies:
+    - alias: redis
+      condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~18.6.0
+    - alias: mariadb
+      condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: ~15.0.0
+    - alias: postgresql
+      condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~13.2.24
+    description: 'A community-supported supercharged version of paperless with an
+      included ftp server: scan, index and archive all your physical documents.'
+    digest: 71f4802c9b5f22323812b0490e70be51ea3265bd89a463227cfb95fe494d78c1
+    home: https://github.com/CrystalNET-org/helm-paperless-ngx
+    icon: https://avatars.githubusercontent.com/u/99562962?s=48&v=4
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: h@xx0r.eu
+      name: psych0d0g
+    name: paperless-ngx
+    sources:
+    - https://github.com/paperless-ngx/paperless-ngx
+    - https://github.com/CrystalNET-org/helm-paperless-ngx
+    type: application
+    urls:
+    - https://github.com/CrystalNET-org/helm.crystalnet.org/releases/download/helm-paperless-ngx-0.2.12/paperless-ngx-0.2.12.tgz
+    version: 0.2.12
+  - apiVersion: v2
+    appVersion: 2.1.3
     created: "2023-12-22T23:10:38.778082223Z"
     dependencies:
     - alias: redis
@@ -145,4 +181,4 @@ entries:
     urls:
     - https://github.com/CrystalNET-org/helm.crystalnet.org/releases/download/helm-paperless-ngx-0.2.8/paperless-ngx-0.2.8.tgz
     version: 0.2.8
-generated: "2023-12-22T23:10:38.778121854Z"
+generated: "2023-12-22T23:18:34.315387918Z"
