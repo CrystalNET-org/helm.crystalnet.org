@@ -316,4 +316,23 @@ entries:
     urls:
     - https://github.com/CrystalNET-org/helm.crystalnet.org/releases/download/helm-romm-0.2.14/romm-0.2.14.tgz
     version: 0.2.14
-generated: "2023-12-23T08:19:18.691142304Z"
+  tasmo-admin:
+  - apiVersion: v2
+    appVersion: v3.2.0
+    created: "2023-12-23T10:06:57.400134167Z"
+    description: A Helm chart for TasmoAdmin - creates second ingress for http OTA
+      server
+    digest: cdbe149890f11a7dbd7c11cb1cd07d9995c99e869511e4bda4b1acefe8f8a8bd
+    home: https://github.com/TasmoAdmin/TasmoAdmin
+    icon: https://tasmota.github.io/docs/_media/logo.svg
+    maintainers:
+    - name: psych0d0g
+    name: tasmo-admin
+    sources:
+    - https://github.com/TasmoAdmin/TasmoAdmin
+    - https://github.com/psych0d0g/helm-charts/tree/main/charts/tasmo-admin
+    type: application
+    urls:
+    - https://github.com/CrystalNET-org/helm.crystalnet.org/releases/download/helm-tasmo-admin-3.0.8/tasmo-admin-3.0.8.tgz
+    version: 3.0.8
+generated: "2023-12-23T10:06:57.400177121Z"
