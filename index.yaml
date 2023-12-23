@@ -253,4 +253,36 @@ entries:
     urls:
     - https://github.com/CrystalNET-org/helm.crystalnet.org/releases/download/helm-paperless-ngx-0.2.8/paperless-ngx-0.2.8.tgz
     version: 0.2.8
-generated: "2023-12-23T07:55:15.754986089Z"
+  romm:
+  - apiVersion: v2
+    appVersion: 2.1.0
+    created: "2023-12-23T08:14:05.156193689Z"
+    dependencies:
+    - alias: redis
+      condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~18.6.0
+    - alias: mariadb
+      condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: ~15.0.0
+    description: RomM (Rom Manager) is a web based retro roms manager integrated with
+      IGDB.
+    digest: 27f4a82c170b923d5cad43986964bc65092eee05c7931eb36ec5b27c4c0aa9bf
+    home: https://zurdi15.github.io/romm/
+    icon: https://raw.githubusercontent.com/psych0d0g/helm-charts/main/charts/romm/icon.png
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: h@xx0r.eu
+      name: psych0d0g
+    name: romm
+    sources:
+    - https://github.com/zurdi15/romm
+    - https://github.com/psych0d0g/helm-charts/tree/main/charts/romm
+    type: application
+    urls:
+    - https://github.com/CrystalNET-org/helm.crystalnet.org/releases/download/helm-romm-0.2.14/romm-0.2.14.tgz
+    version: 0.2.14
+generated: "2023-12-23T08:14:05.156231746Z"
