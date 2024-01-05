@@ -478,6 +478,24 @@ entries:
     version: 0.2.14
   tasmo-admin:
   - apiVersion: v2
+    appVersion: v3.3.2
+    created: "2024-01-05T10:43:12.026460944Z"
+    description: A Helm chart for TasmoAdmin - creates second ingress for http-only
+      OTA server
+    digest: 2b153d4cbd44c455c036bb01501d9a4f106221b4497ad45b37801f528af19f13
+    home: https://github.com/TasmoAdmin/TasmoAdmin
+    icon: https://tasmota.github.io/docs/_media/logo.svg
+    maintainers:
+    - name: psych0d0g
+    name: tasmo-admin
+    sources:
+    - https://github.com/TasmoAdmin/TasmoAdmin
+    - https://github.com/psych0d0g/helm-charts/tree/main/charts/tasmo-admin
+    type: application
+    urls:
+    - https://github.com/CrystalNET-org/helm.crystalnet.org/releases/download/helm-tasmo-admin-3.0.11/tasmo-admin-3.0.11.tgz
+    version: 3.0.11
+  - apiVersion: v2
     appVersion: v3.3.1
     created: "2024-01-02T10:54:00.20768105Z"
     description: A Helm chart for TasmoAdmin - creates second ingress for http-only
@@ -531,4 +549,4 @@ entries:
     urls:
     - https://github.com/CrystalNET-org/helm.crystalnet.org/releases/download/helm-tasmo-admin-3.0.8/tasmo-admin-3.0.8.tgz
     version: 3.0.8
-generated: "2024-01-02T10:54:11.775653869Z"
+generated: "2024-01-05T10:43:12.026549176Z"
